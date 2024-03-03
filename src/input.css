@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes slide {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+.brand-names {
+  display: inline-flex;
+  animation: slide 10s linear infinite;
+}
+
+.logoAnimation {
+  overflow: hidden;
+  white-space: nowrap;
+}
