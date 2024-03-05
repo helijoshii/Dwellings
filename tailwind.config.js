@@ -25,15 +25,16 @@ module.exports = {
     // extend: {},
     extend: {
       fontFamily: {
-        "Poppins": "Poppins",
-        "bebas": "'Bebas Neue'",
-        "Jakarta": "'Plus Jakarta Sans'",
+        "albert": "Albert Sans",
       },
       colors: {
         white: "#fff",
         text: "#1e1c1a",
         blue: "#6637EE",
         orange: "#FD5D11",
+        gray1: "#666270",
+        gray2: "#D6D4DD",
+        online: "#00CE7C",
         gray: {
           "100": "#fffdf9",
           "200": "rgba(255, 255, 255, 0.7)",

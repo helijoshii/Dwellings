@@ -9,6 +9,12 @@
       rel="stylesheet"
       href="https://unpkg.com/swiper/swiper-bundle.min.css"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body class="bg-amber-50 font-sans overflow-x-hidden m-0 p-0">
     <div
@@ -66,45 +72,44 @@
             class="flex gap-2 my-7 w-full items-center justify-between md:gap-8"
           >
             <div class="bg-none rounded-md w-80 overflow-hidden">
-              <img
-                src="..\assets\img\Rectangle 2.png"
-                class="w-full rounded-md"
-              />
+              <img src="..\assets\img\image1.png" class="w-full rounded-md" />
             </div>
             <div class="bg-none rounded-md w-80 overflow-hidden">
               <img
-                src="..\assets\img\Rectangle 4.png"
+                src="..\assets\img\image2.png"
                 class="pt-8 object-cover w-full"
               />
             </div>
             <div class="bg-none rounded-md w-80 overflow-hidden">
               <img
-                src="..\assets\img\Rectangle 3.png "
+                src="..\assets\img\image3.png "
                 class="object-cover w-full"
               />
             </div>
             <div class="bg-none rounded-md w-80 overflow-hidden">
               <img
-                src="..\assets\img\Rectangle 5.png "
+                src="..\assets\img\image4.png "
                 class="pt-8 object-cover w-full"
               />
             </div>
           </div>
           <div class="heading max-w-6xl">
-            <h1 class="md:text-9xl text-4xl font-bold my-2 md:py-4">
+            <h1
+              class="md:text-9xl text-4xl font-semibold font-albert my-2 md:py-4"
+            >
               Home is where your story begins
             </h1>
-            <p class="text-zinc-500">
+            <p class="text-gray1 font-albert text-lg font-normal pt-7 pb-12">
               Building a next-generation collaborative platform to connect
               renters, homeowners, and agents. Live the way you want. Beautiful
               homes. Incredible locations. Pricing that makes sense.
             </p>
             <div class="md:flex items-center justify-between my-2">
               <div
-                class="bg-white p-7 md:flex gap-2 justify-center items-center rounded-md"
+                class="bg-white p-7 md:flex justify-center items-center gap-5 rounded-md"
               >
                 <div
-                  class="my-3 border-2 border-gray-300 flex rounded-md px-3 w-64"
+                  class="my-3 border-2 border-gray2 flex rounded-md px-3 w-64"
                 >
                   <input
                     type="text"
@@ -114,17 +119,17 @@
                   <img src="../assets/icons/search.svg" alt="" class="" />
                 </div>
                 <div
-                  class="my-3 border-2 border-gray-300 flex justify-between rounded-md px-3 w-56"
+                  class="my-3 border-2 border-gray2 flex justify-between rounded-md px-3 w-56"
                 >
                   <input
                     type="text"
-                    placeholder="Where type of home?"
+                    placeholder="What type of home?"
                     class="h-12"
                   />
                   <img src="../assets/icons/down-arrow.svg" />
                 </div>
                 <button
-                  class="my-3 bg-orange flex gap-3 justify-between items-center px-4 font-semibold rounded-md text-white h-12"
+                  class="my-3 bg-orange flex gap-3 justify-between items-center px-4 font-semibold font-albert rounded-md text-white h-12"
                 >
                   Find a home
                   <img src="../assets/icons/left-arrow.svg" />
@@ -135,7 +140,7 @@
                   <img src="../assets/icons/mouse.svg" />
                 </div>
                 <div>
-                  <p class="text-zinc-500">Scroll Down</p>
+                  <p class="text-gray1">Scroll Down</p>
                 </div>
               </div>
             </div>
@@ -154,7 +159,7 @@
               Trusted by the people across the globe
             </h1>
           </div>
-          <div>
+          <div class="max-w-96">
             <p class="py-5">
               Building a next-generation collaborative platform to connect
               renters, homeowners, and agents. Live the way you want. Beautiful
@@ -166,26 +171,28 @@
             </p>
           </div>
         </div>
-        <div class="flex flex-col md:flex-row md:justify-around gap-5">
+        <div
+          class="flex flex-col md:flex-row md:justify-around gap-5 font-albert text-white"
+        >
           <div class="flex items-start gap-5">
             <img src="../assets/icons/shocked.svg" alt="" />
             <div>
-              <h1 class="font-bold text-4xl">+20K</h1>
-              <p>Clients worldwide</p>
+              <h1 class="font-semibold text-4xl">+20K</h1>
+              <p class="font-normal">Clients worldwide</p>
             </div>
           </div>
           <div class="flex items-start gap-5">
             <img src="../assets/icons/loved.svg" alt="" />
             <div>
-              <h1 class="font-bold text-4xl">95.7%</h1>
-              <p>Satisfied Clients</p>
+              <h1 class="font-semibold text-4xl">95.7%</h1>
+              <p class="font-normal">Satisfied Clients</p>
             </div>
           </div>
           <div class="flex gap-5 items-start">
             <img src="../assets/icons/happy.svg" alt="" />
             <div>
-              <h1 class="font-bold text-4xl">100</h1>
-              <p>City around</p>
+              <h1 class="font-semibold text-4xl">100</h1>
+              <p class="font-normal">City around</p>
             </div>
           </div>
         </div>
@@ -193,7 +200,7 @@
     </section>
 
     <section id="providing" class="bg-white">
-      <div class="py-20 px-0 container">
+      <div class="py-20 px-28 container">
         <div class="grid md:grid-cols-2 gap-10">
           <div class="relative">
             <img src="../assets/img/chairHome.svg" alt="" class="w-9/12" />
@@ -207,13 +214,15 @@
                   class="h-full"
                 />
                 <span
-                  class="absolute p-2 right-10 bottom-3 md:p-3 md:bottom-5 md:right-5 bg-green-700 rounded-full border"
+                  class="absolute right-5 bottom-1 md:p-3 md:bottom-5 md:right-5 bg-online rounded-full border"
                 >
                 </span>
               </div>
-              <div class="flex flex-col justify-center items-center">
-                <h1 class="font-bold text-xl">David Warner</h1>
-                <p class="text-zinc-500">Property Agent</p>
+              <div
+                class="flex flex-col justify-center items-center font-albert"
+              >
+                <h1 class="font-semibold text-lg">David Warner</h1>
+                <p class="text-gray1 text-sm">Property Agent</p>
                 <button
                   class="bg-blue rounded-md text-white px-5 py-2 my-3 mx-0"
                 >
@@ -222,17 +231,17 @@
               </div>
             </div>
           </div>
-          <div class="grid gap-10 md:gap-7">
-            <h1 class="text-3xl md:text-5xl font-bold">
+          <div class="grid gap-10 md:gap-7 font-albert">
+            <h1 class="text-5xl md:text-5xl font-semibold">
               Providing the effective solutions for you
             </h1>
-            <p class="md:text-xl">
+            <p class="md:text-xl font-normal text-lg text-gray1">
               Building a next-generation collaborative platform to connect
               renters, homeowners, and agents. Live the way you want. Beautiful
               homes. Incredible locations. Pricing that makes sense.
             </p>
             <button
-              class="bg-orange text-white font-bold w-max p-5 rounded-md md:h-fit"
+              class="bg-orange text-white font-semibold text-lg w-max px-9 py-4 rounded-md md:h-fit"
             >
               More About Us
             </button>
@@ -415,7 +424,7 @@
             <h1 class="text-3xl font-bold mb-3">
               Ready to find your dream home?
             </h1>
-            <p class="text-2xl text-zinc-500">
+            <p class="text-2xl text-gray1">
               Building a next-generation collaborative platform to connect
               renters, homeowners, and agents. Live the way you want. Beautiful
               homes.
@@ -440,14 +449,14 @@
       <div class="container">
         <div class="md:flex justify-between">
           <div class="md:flex gap-24 order-last">
-            <div class="flex flex-col gap-6 pb-4 text-zinc-500">
+            <div class="flex flex-col gap-6 pb-4 text-gray1">
               <p class="font-bold text-xl text-black">Dwelling</p>
               <p>Find my home</p>
               <p>Homeowners</p>
               <p>Community</p>
               <p>Reviews</p>
             </div>
-            <div class="flex flex-col gap-6 pb-4 text-zinc-500">
+            <div class="flex flex-col gap-6 pb-4 text-gray1">
               <p class="font-bold text-xl text-black">Company</p>
               <p>Features</p>
               <p>Articles</p>
@@ -456,7 +465,7 @@
               <p>Careers</p>
               <p>API documentations</p>
             </div>
-            <div class="flex flex-col gap-6 pb-4 text-zinc-500">
+            <div class="flex flex-col gap-6 pb-4 text-gray1">
               <p class="font-bold text-xl text-black">Support</p>
               <p>Contact</p>
               <p>Privacy</p>
@@ -470,7 +479,7 @@
               <img src="../assets/img/logo.svg" alt="" class="h-8" />
               <h1 class="text-2xl">dwelling</h1>
             </div>
-            <p class="text-lg py-5 text-zinc-500">
+            <p class="text-lg py-5 text-gray1">
               Building a next-generation collaborative platform to connect
               renters, homeowners, and agents.
             </p>
