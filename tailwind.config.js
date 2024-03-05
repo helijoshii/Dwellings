@@ -24,11 +24,34 @@ module.exports = {
     },
     // extend: {},
     extend: {
+      fontFamily: {
+        "Poppins": "Poppins",
+        "bebas": "'Bebas Neue'",
+        "Jakarta": "'Plus Jakarta Sans'",
+      },
+      colors: {
+        white: "#fff",
+        text: "#1e1c1a",
+        blue: "#6637EE",
+        orange: "#FD5D11",
+        gray: {
+          "100": "#fffdf9",
+          "200": "rgba(255, 255, 255, 0.7)",
+          "300": "rgba(255, 253, 249, 0.7)",
+          "400": "rgba(255, 253, 249, 0.3)",
+          "500": "rgba(255, 253, 249, 0.6)",
+          "600": "rgba(255, 255, 255, 0.3)",
+        },
+        "p-text": "#504c48",
+        "bg-color": "#fff0e3",
+        "primary-color": "#d99655",
+        dimgray: "rgba(80, 76, 72, 0.7)",
+      },
       backgroundImage:
         {
           'videoBg': "url('../assets/img/Images.png')"
           
-        }
+        },
       },
   },
   plugins: [],
